@@ -4,9 +4,10 @@ using System.Collections.Generic;
 
 public class SetFromDataManager : MonoBehaviour {
 
-	public List<string> Keys;
 	public string Prefix = "";
 	public string Suffix = "";
+	public GameObject Parent;
+	public List<string> Keys;
 
 	void Start()
 	{
@@ -15,6 +16,14 @@ public class SetFromDataManager : MonoBehaviour {
 
 	void SetTo()
 	{
+		for( int i=0 ; i<Keys.Count ; i++ )
+		{
+			if ( Keys[i] == "<ParentName>" && Parent != null )
+			{
+				Keys[i] = Parent.name;
+			}
+		}
+
 		string str = Prefix + DataManager.Instance.GetString(Keys) + Suffix;
 
 		if ( GetComponent<TextMesh>() != null )
