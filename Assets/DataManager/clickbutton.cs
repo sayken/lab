@@ -43,5 +43,7 @@ public class clickbutton : MonoBehaviour {
 		dm.SearchAndUpdate ( new List<string>{"stagelist","1"}, hoge );
 
 		dm.Save( "stagelist" );
+
+		PlayerPrefs.DeleteAll();
 	}
 }
