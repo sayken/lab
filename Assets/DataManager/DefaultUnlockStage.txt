@@ -1,0 +1,1 @@
+{"data":{"stage":{"unlocked_stage":"1desu"},"stagelist":["list1","list2","list3"]}}

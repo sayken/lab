@@ -1,0 +1,9 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/sayken2000/Documents/develop/unity/lab/Assets",
+			"file_exclude_patterns":["*.meta","*.unity","*.prefab"]
+		}
+	]
+}
