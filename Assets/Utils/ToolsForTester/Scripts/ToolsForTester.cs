@@ -6,7 +6,6 @@ using System.Reflection;
 
 //
 // For Debug Function
-// 2014 .1.23 Gen Nishijima
 //
 public class ToolsForTester : MonoBehaviour {
 
