@@ -5,7 +5,6 @@ using System.Linq;
 
 /**
  * DataManager
- * 2014.1.26 Gen Nishijima
  */
 public class DataManager {
 
